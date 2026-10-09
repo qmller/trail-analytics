@@ -1,0 +1,13 @@
+# Copy to athlete.toml (read automatically) or pass with --athlete. All keys are optional.
+age = 42              # years: HRmax fallback (208 - 0.7 x age), age decline of older reference runs
+weight = 82.0         # kg today: energy estimate
+vo2max = 52.0         # ml/kg/min today (watch or lab)
+
+# Values when the reference activities were recorded: the change vs today scales the race pace.
+# ref_vo2max = 51.0
+# ref_weight = 82.0
+
+# Known heart-rate values (lab or field test) override the GPX estimates.
+# hrmax = 185
+# lthr = 165
+# hrrest = 45
